@@ -1,0 +1,112 @@
+.row {
+    margin-bottom: 1.5rem;
+}
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.container,
+.row {
+    max-width: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.fs-2 {
+    font-size: 2rem;
+}
+
+.mt-2 {
+    margin-top: 0.5rem;
+}
+
+.navbar-logo {
+    width: 70px;
+    height: auto;
+}
+.navbar-custom {
+    background-color: #256265;
+    padding: 10px 5%;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.navbar-custom .navbar-search {
+    background-color: transparent;
+    border: 1px solid transparent;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+.navbar-custom .navbar-search:hover {
+    background-color: #fff;
+    border-color: #ced4da; 
+}
+li.nav-item a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.dropdown-menu .dropdown-item {
+    color: black !important;
+}
+
+.descricao {
+    margin-top: 50px;
+}
+
+.descricao .fa-solid,
+.fas {
+    font-weight: 900;
+    color: #256265;
+}
+
+.footer-custom {
+    background-color: #256265;
+    color: #fff;
+    padding: 20px 5%;
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Rotapé ou Footer */
+.footer-custom {
+    background-color: #256265;
+    color: #fff;
+    padding: 20px 5%;
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.2);
+}
+.footer-custom a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer-custom a:hover {
+    text-decoration: underline;
+}
+.footer-custom .social-icons i {
+    font-size: 1.5rem;
+    margin-right: 15px;
+    color: #fff;
+}
+.footer-custom .social-icons i:hover {
+    color: #ddd;
+}
+.footer-custom .text-center {
+    text-align: center;
+}
+.footer-custom .links-center ul {
+    padding: 0;
+    list-style: none;
+}
+.footer-custom .links-center ul li {
+    margin-bottom: 10px;
+}

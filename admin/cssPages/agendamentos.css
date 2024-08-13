@@ -1,0 +1,70 @@
+/* Estilo básico para o corpo da página */
+body {
+    font-family: 'Roboto', sans-serif; /* Aplica a fonte Roboto */
+    background-color: #256265;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Garante altura mínima de 100% da viewport */
+}
+
+.container {
+    background: #f9f9f9; /* Cor de fundo do container */
+    padding: 30px; /* Espaçamento interno */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 100%;
+    max-width: 550px; /* Largura máxima do container */
+    box-sizing: border-box;
+    margin: 40px; /* Margens ao redor do container */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px; /* Margem superior para o cabeçalho */
+}
+
+.logo {
+    max-width: 200px; /* Tamanho máximo da logo */
+    display: block;
+    margin: 0 auto 10px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px; /* Espaçamento entre os grupos de formulário */
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input, .form-group select, .form-group textarea {
+    width: 100%; /* Largura total do campo de entrada */
+    padding: 12px; /* Espaçamento interno */
+    border: 1px solid #8a8a8a; /* Cor da borda */
+    border-radius: 4px; /* Cantos arredondados */
+    box-sizing: border-box; /* Considera padding e borda dentro da largura */
+}
+
+.form-group textarea {
+    resize: vertical; /* Permite redimensionamento vertical */
+}
+
+.form-buttons {
+ text-align: center;
+    justify-content: space-between; /* Alinha os botões nas extremidades */
+    gap: 10px; /* Espaçamento entre os botões */
+}
+

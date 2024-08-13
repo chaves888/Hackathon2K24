@@ -1,0 +1,68 @@
+/* Estilos básicos */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #256265;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o container */
+.container {
+    margin-top: 20px;
+}
+
+/* Estilos para o card */
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para a tabela */
+.table {
+    margin-bottom: 0;
+}
+
+.table th, .table td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.table thead th {
+    background-color: #256265;
+    color: white;
+    font-weight: bold;
+}
+
+/* Estilos para os botões */
+.btn {
+    margin-right: 5px;
+}
+
+/* Estilos para o modal */
+.modal-header {
+    background-color: #256265;
+    color: white;
+}
+
+.modal-title {
+    margin: 0 auto;
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+/* Estilos para o rodapé do modal */
+.modal-footer {
+    border-top: none;
+    justify-content: center;
+}
+
+.close {
+    color: white;
+    opacity: 1;
+}
